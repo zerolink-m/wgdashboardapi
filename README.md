@@ -1,4 +1,5 @@
-# WGDashboard API Client
+# WGDashboard API Client 
+## For 4.3.3 and earlier
 
 An async Python SDK for the [WGDashboard](https://github.com/donaldzou/WGDashboard) REST API. Manage WireGuard and AmneziaWG configurations, peers, backups, scheduled jobs, and dashboard settings programmatically.
 

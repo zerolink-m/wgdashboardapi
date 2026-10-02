@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wgdashboard-api"
+version = "0.1.0"
+description = "Async Python SDK for the WGDashboard REST API"
+readme = "README.md"
+authors = [
+    { name = "arsrus721", email = "your-email@example.com" }
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Networking",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+keywords = ["wireguard", "wgdashboard", "vpn", "api", "async", "amneziawg"]
+requires-python = ">=3.8"
+dependencies = [
+    "httpx>=0.24.0",
+    "pydantic>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/arsrus721/wgdashboardapi"
+Documentation = "https://github.com/arsrus721/wgdashboardapi#readme"
+Repository = "https://github.com/arsrus721/wgdashboardapi"
+Issues = "https://github.com/arsrus721/wgdashboardapi/issues"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.21.0",
+    "mypy>=1.0",
+    "ruff>=0.1.0",
+]
+
+[tool.setuptools]
+packages = ["wgdashboardapi", "wgdashboardapi.resources"]
+
+[tool.setuptools.package-dir]
+wgdashboardapi = "."
+
+[tool.ruff]
+line-length = 100
+target-version = "py38"
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
