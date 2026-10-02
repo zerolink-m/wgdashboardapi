@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "wgdashboardapi"
+name = "wgdashboard"
 version = "0.1.0"
 description = "Async Python SDK for WGDashboard"
 readme = "README.md"
