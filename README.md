@@ -15,7 +15,7 @@ An async Python SDK for the [WGDashboard](https://github.com/donaldzou/WGDashboa
 ## Installation
 
 ```bash
-pip install wgdashboardapi
+pip install wgdashboard
 ```
 
 Or from source:
