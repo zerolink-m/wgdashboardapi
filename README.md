@@ -15,13 +15,13 @@ An async Python SDK for the [WGDashboard](https://github.com/donaldzou/WGDashboa
 ## Installation
 
 ```bash
-pip install wgdashboard
+pip install wgdashboardapi
 ```
 
 Or from source:
 
 ```bash
-git clone https://github.com/yourusername/wgdashboardapi.git
+git clone https://github.com/zerolink-m/wgdashboardapi.git
 cd wgdashboardapi
 pip install -e .
 ```
@@ -457,7 +457,7 @@ The dashboard applies a changed `allowed_ip` to the interface and `.conf` file b
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/wgdashboardapi.git
+git clone https://github.com/zerolink-m/wgdashboardapi.git
 cd wgdashboardapi
 
 # Install in development mode
